@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Github Finder
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Github API를 사용해 Github 사용자의 유저네임을 검색하여 해당 사용자의 프로필을 볼 수 있는 앱
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+## **🧰 사용기술**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- React, JavaScript, CSS
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📅 프로젝트 기간
 
-### `npm run build`
+- 22.01.02 ~ 22.01.05
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 💻 Visit Project Website
 
-### `npm run eject`
+[github-finder-jin0106.vercel.app](http://github-finder-jin0106.vercel.app/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✨ 목표 서비스 및 실제 구현 정도
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Github Username 검색 기능
 
-## Learn More
+   1. 검색 결과에서 Visit Profile을 누르면 해당 유저의 프로필 정보 표시
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+   2. 프로필 페이지에서 해당 유저의 github, repo로 이동 가능
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+      
 
-### Code Splitting
+### 기본 화면
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+![image-20220105233534913](README.assets/image-20220105233534913.png)
 
-### Analyzing the Bundle Size
+### 검색 결과 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+![image-20220105233548918](README.assets/image-20220105233548918.png)
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 느낀점 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+리액트를 이론으로만 배우기보다는 직접 만들면서 배우고자 Udemy강좌를 수강하며 function based component를 주로 사용하였고 컴포넌트들을 어떻게 나누는지, state와 prop을 다루는법 그리고 context나 reducer과 같은 hook을 이용하여 state를 한곳에서 관리하는 법, router 사용등을 배울 수 있었습니다.
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+완성된 프로젝트는 Vercel을 이용하여 배포하였습니다.
